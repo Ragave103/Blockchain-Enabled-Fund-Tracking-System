@@ -1,0 +1,159 @@
+body {
+  font-family: "Zilla Slab", serif;
+  margin: 0px;
+}
+#box {
+  display: inline-block;
+  border: 2px solid #f190b7;
+  position: absolute;
+  margin-top: 5rem;
+  margin-left: 35rem;
+  padding: 2rem 0rem;
+  text-align: center;
+  justify-content: center;
+  background-color: #46244c98;
+}
+
+.container {
+  padding-top: 5rem;
+  padding-right: 10rem;
+  padding-left: 10rem;
+  padding-bottom: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+#head {
+  font-family: "Zilla Slab", serif;
+  font-size: 3rem;
+  color: #f190b7;
+}
+
+.head1 {
+  font-family: "Zilla Slab", serif;
+  font-size: 3rem;
+  color: #f190b7;
+}
+
+.btn {
+  padding: 1rem 7rem;
+  background-color: transparent;
+  color: white;
+  font-family: "Zilla Slab", serif;
+  font-size: 1.5rem;
+  border: 2px solid #f190b7;
+  box-shadow: 0 0 40px 40px #f190b7 inset, 0 0 0 0 #f190b7;
+  transition: all 150ms ease-in-out;
+}
+
+.btn:hover {
+  box-shadow: 0 0 10px 0 #f190b7 inset, 0 0 10px 4px #f190b7;
+}
+
+.overlay {
+  background-color: rgba(255, 255, 255, 0.409);
+
+  position: fixed;
+  width: 125rem;
+  height: 70rem;
+  transform: translate(-50%, -50%);
+}
+
+.modalContainer {
+  justify-content: center;
+  background-color: #46244cda;
+  max-width: 600px;
+  width: 100%;
+  position: fixed;
+  top: 25%;
+  left: 50%;
+  display: flex;
+  transform: translate(-11.5rem, 5rem);
+  box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
+}
+
+.closeBtn {
+  position: fixed;
+  top: 8px;
+  right: 8px;
+}
+
+.content {
+  padding: 5rem;
+}
+
+.content h1 p {
+  font-family: "Zilla Slab", serif;
+}
+
+.form-label {
+  font-family: "Zilla Slab", serif;
+  color: white;
+  font-size: 25px;
+}
+
+.role {
+  padding: 10px 25px;
+  background-color: transparent;
+  font-family: "Zilla Slab", serif;
+  color: #f190b7;
+  font-size: 20px;
+  border: 5px solid #f190b7;
+  margin-left: 1rem;
+}
+
+.role option {
+  font-family: "Zilla Slab", serif;
+  background-color: #46244cda;
+  color: #f190b7;
+}
+
+.role option:hover {
+  background-color: #46244cda;
+  color: #f190b7;
+}
+
+.content p {
+  font-family: "Zilla Slab", serif;
+  color: white;
+  font-size: 10px;
+}
+
+.form-label {
+  font-family: "Zilla Slab", serif;
+  color: white;
+  font-size: 25px;
+}
+
+.error {
+  font-family: "Zilla Slab", serif;
+  color: red;
+  font-size: 13px;
+  text-align: right;
+}
+
+.input {
+  margin: 0px 10px;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  border: 0px;
+  border-bottom: 1px solid #ffc4e1;
+}
+
+.input:hover,
+.input:focus {
+  border: 0px;
+  border-bottom: 1px solid #ffc4e1;
+}
+
+#head1 {
+  font-family: "Zilla Slab", serif;
+  font-size: 3rem;
+  color: #f190b7;
+  text-align: center;
+  margin-bottom: 5px;
+}

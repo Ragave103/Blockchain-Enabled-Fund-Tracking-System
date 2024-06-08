@@ -1,0 +1,23 @@
+table {
+  border-collapse: collapse;
+  max-width: 900px;
+  width: 100%;
+  margin: 2rem auto;
+}
+
+table th,
+table td {
+  border: 1px solid #1b0e1dda;
+  padding: 8px;
+  text-align: center;
+}
+
+table th {
+  color: pink;
+  font-size: 25px;
+}
+
+table td {
+  color: white;
+  font-size: 20px;
+}
