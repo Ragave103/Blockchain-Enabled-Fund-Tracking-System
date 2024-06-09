@@ -1,3 +1,103 @@
+# Government Fund Allocation and Tracking System
+
+## Team Members
+- Ragave I.
+- Varshini R.
+- Keerthana B.
+- Priyangaa P.K.
+
+
+## Introduction
+Blockchain technology has revolutionized various industries by offering data integrity, decentralization, and transparency. In this project, we leverage blockchain to manage and allocate government funds, ensuring transparency and security.
+
+## Problem Statement
+In the current system, fund allocations are displayed on government portals without detailed tracking of how funds are used, leading to potential corruption. Our platform aims to solve this problem by using blockchain to provide a transparent and secure fund management system.
+
+## Proposed System
+We have developed a decentralized platform that allows the government to allocate and track funds. This platform ensures security and transparency throughout the fund distribution process.
+
+### Built On
+- **Public Blockchain:** Ethereum
+- **Decentralized Distributed Storage:** IPFS
+
+## Technology Stack
+### Libraries
+- **React:** Front-end web development
+
+
+### Frameworks
+- **Hardhat:** Development environment for Ethereum software
+- **Alchemy:** Ethereum node provider
+- **MetaMask Wallet:** Ethereum wallet for storing, buying, sending, and transferring cryptocurrency
+- **Ether:** Native cryptocurrency for transaction fees and computational services
+
+## Architecture
+### Flow in the Platform
+1. **Government Allocates Fund**
+2. **Store Fund Details in IPFS**
+3. **Transfer Fund via Ethereum to Beneficiaries**
+
+### Types of Users
+- **Admin:** Accepts member requests and provides funds
+- **Member:** Allocates funds and adds fund details, generating a CID in IPFS
+
+## Login and Registration
+Admin and members register using a Unique ID and login with face recognition using FACEAPI.js.
+
+## Data Storage
+- **IPFS:** Stores sensitive information immutably
+- **Firestore Database:** Stores mutable parts of the data
+
+## Transaction Process
+- Real Ether is transferred to beneficiaries using Ethereum smart contracts.
+- Digital signatures using ECDSA ensure transaction security.
+
+## Tracking and Public View
+- Members can track transactions.
+- Fund details are publicly displayed on the homepage for transparency.
+
+## Limitations
+- Offline procedures such as budget planning, choosing beneficiaries, and data collection are not included.
+- The platform does not provide regulatory policies.
+
+## Screenshots and Architecture
+### Architecture Diagram
+![Architecture Diagram](path/to/architecture-diagram.png)
+
+### Screenshots
+1. **Login Page**
+   ![Login Page](path/to/login-page.png)
+
+2. **Admin Dashboard**
+   ![Admin Dashboard](path/to/admin-dashboard.png)
+
+3. **Fund Allocation Page**
+   ![Fund Allocation Page](path/to/fund-allocation-page.png)
+
+4. **Transaction Tracking Page**
+   ![Transaction Tracking Page](path/to/transaction-tracking-page.png)
+
+## Conclusion
+Our blockchain-based platform offers a secure and transparent solution for government fund allocation and tracking, aiming to reduce corruption and improve accountability.
+
+## References
+- [IEEE Document on Blockchain Technology](https://ieeexplore.ieee.org/document/8769200)
+
+## How to Run the Project
+
+### Prerequisites
+- Node.js and npm
+- MetaMask Wallet
+- Ethereum Test Network (e.g., Rinkeby)
+- Alchemy Account
+
+### Installation
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/your-repo-name.git
+   cd your-repo-name
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
