@@ -16,42 +16,53 @@ In the current system, fund allocations are displayed on government portals with
 |:---:|---|
 
 ### Built On
-- **Public Blockchain:** Ethereum
-- **Decentralized Distributed Storage:** IPFS
+- **Public Blockchain:** Ethereum <img src="abstractImages/2ethereum.png" width="50" height="50" /> 
+- **Decentralized Distributed Storage:** IPFS <img src="abstractImages/3ipfs.png" width="50" height="50" /> 
 
 ## Technology Stack
 ### Libraries
-- **React:** Front-end web development
+- **React:** Front-end web development <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
 
 
 ### Frameworks
-- **Hardhat:** Development environment for Ethereum software
-- **Alchemy:** Ethereum node provider
-- **MetaMask Wallet:** Ethereum wallet for storing, buying, sending, and transferring cryptocurrency
-- **Ether:** Native cryptocurrency for transaction fees and computational services
+- **Hardhat:** Development environment for Ethereum software  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/hardhat/hardhat-original.svg"  height="40"  />
+          
+- **Alchemy:** Ethereum node provider  <img src="abstractImages/9alchemy.jpg" height="40"  />
+- **MetaMask Wallet:** Ethereum wallet for storing, buying, sending, and transferring cryptocurrency  <img src="abstractImages/10metamask.png"  height="40"  />
+- **Ether:** Native cryptocurrency for transaction fees and computational services <img  src="abstractImages/11ether.png"  height="40"  />
+
+### Flow in the Platform
+<img src="abstractImages/4brief.jpg"  />
+
+1. **Government Allocates Fund**
+    - The government allocates funds to various projects.
+2. **Store Fund Details in IPFS**
+    - Fund details are stored in IPFS for immutability.
+3. **Transfer Fund via Ethereum to Beneficiaries**
+    - Funds are transferred to beneficiaries using Ethereum smart contracts.
+
 
 ## Architecture
-### Flow in the Platform
-1. **Government Allocates Fund**
-2. **Store Fund Details in IPFS**
-3. **Transfer Fund via Ethereum to Beneficiaries**
+
+<img src="abstractImages/7architecture.jpg"  />
 
 ### Types of Users
 - **Admin:** Accepts member requests and provides funds
 - **Member:** Allocates funds and adds fund details, generating a CID in IPFS
 
 ## Login and Registration
-Admin and members register using a Unique ID and login with face recognition using FACEAPI.js.
+Admin and members register and login using a Unique ID [UID]
 
 ## Data Storage
-- **IPFS:** Stores sensitive information immutably
-- **Firestore Database:** Stores mutable parts of the data
+- **IPFS:** Stores sensitive information immutably <img src="abstractImages/3ipfs.png" width="50" height="50" /> 
+- **Firestore Database:** Stores mutable parts of the data   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg" width="50" height="50"  />
+          
 
   ![Data Storage](abstractImages/6storingdata.jpg)
 
 ## Transaction Process
 - Real Ether is transferred to beneficiaries using Ethereum smart contracts.
-- Digital signatures using ECDSA ensure transaction security.
+- Digital signatures using ECDSA (Elliptical Curve Digital Signature Algorithm) ensure transaction security.
 
 ## Tracking and Public View
 - Members can track transactions.
@@ -61,28 +72,49 @@ Admin and members register using a Unique ID and login with face recognition usi
 - Offline procedures such as budget planning, choosing beneficiaries, and data collection are not included.
 - The platform does not provide regulatory policies.
 
-## Screenshots and Architecture
-### Architecture Diagram
-![Architecture Diagram](path/to/architecture-diagram.png)
+## Fund Types and Flow
+### Diagram of Various Funds
+
+<img src="abstractImages/8working flow.jpg" />
 
 ### Screenshots
-1. **Login Page**
-   ![Login Page](path/to/login-page.png)
+1. **Home Page**
+   <img src="SCREENSHOTS/1home.png" />
 
-2. **Admin Dashboard**
-   ![Admin Dashboard](path/to/admin-dashboard.png)
+2. **Member login**
+<img src="SCREENSHOTS/2memberlogin.png" />
+<img src="SCREENSHOTS/3memberlogin.png" />
 
-3. **Fund Allocation Page**
-   ![Fund Allocation Page](path/to/fund-allocation-page.png)
 
-4. **Transaction Tracking Page**
-   ![Transaction Tracking Page](path/to/transaction-tracking-page.png)
+3. **Member Dashboard**
+<img src="SCREENSHOTS/4memberdashboard.png" />
+
+4. **Add Funds**
+<img src="SCREENSHOTS/5addfunds.png" />
+
+**After adding fund:**
+
+<img src="SCREENSHOTS/6addedfund.png" />
+
+5. **Admin Login**
+   
+  <img src="SCREENSHOTS/7adminlogin.png" />
+    <img src="SCREENSHOTS/8adminlogin.png" />
+
+6. **Admin Dashboard**
+ 
+  <img src="SCREENSHOTS/9admintransferfund.png" />
+
+  <img src="SCREENSHOTS/10admintransferredfund.png" />
+  
+
+7. **Transaction Tracking Page**
+   
+   <img src="SCREENSHOTS/11trackfund.png" />
 
 ## Conclusion
 Our blockchain-based platform offers a secure and transparent solution for government fund allocation and tracking, aiming to reduce corruption and improve accountability.
 
-## References
-- [IEEE Document on Blockchain Technology](https://ieeexplore.ieee.org/document/8769200)
 
 ## How to Run the Project
 
