@@ -1,10 +1,6 @@
 # Government Fund Allocation and Tracking System
 
-## Team Members
-- Ragave I.
-- Varshini R.
-- Keerthana B.
-- Priyangaa P.K.
+
 
 
 ## Introduction
@@ -14,7 +10,10 @@ Blockchain technology has revolutionized various industries by offering data int
 In the current system, fund allocations are displayed on government portals without detailed tracking of how funds are used, leading to potential corruption. Our platform aims to solve this problem by using blockchain to provide a transparent and secure fund management system.
 
 ## Proposed System
-We have developed a decentralized platform that allows the government to allocate and track funds. This platform ensures security and transparency throughout the fund distribution process.
+
+
+| <img src="abstractImages/1proposedsystem.jpg" width="400" height="200" /> | We have developed a decentralized platform that allows the government to allocate and track funds. This platform ensures security and transparency throughout the fund distribution process. |
+|:---:|---|
 
 ### Built On
 - **Public Blockchain:** Ethereum
@@ -47,6 +46,8 @@ Admin and members register using a Unique ID and login with face recognition usi
 ## Data Storage
 - **IPFS:** Stores sensitive information immutably
 - **Firestore Database:** Stores mutable parts of the data
+
+  ![Data Storage](abstractImages/6storingdata.jpg)
 
 ## Transaction Process
 - Real Ether is transferred to beneficiaries using Ethereum smart contracts.
@@ -91,6 +92,13 @@ Our blockchain-based platform offers a secure and transparent solution for gover
 - Ethereum Test Network (e.g., Rinkeby)
 - Alchemy Account
 
+## Team Members
+- Ragave I.
+- Varshini R.
+- Keerthana B.
+- Priyangaa P.K.
+
+  
 ### Installation
 1. **Clone the repository:**
    ```bash
