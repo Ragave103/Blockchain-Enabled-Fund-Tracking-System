@@ -1,4 +1,4 @@
-# Government Fund Allocation and Tracking System
+# Blockchain Enabled Government Fund Tracking System
 
 
 
